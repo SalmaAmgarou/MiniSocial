@@ -1,70 +1,81 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# MiniSocial - Mini Twitter DApp
 
-In the project directory, you can run:
+MiniSocial is a decentralized social media application similar to Twitter, built on Ethereum's blockchain. It allows users to connect their wallet, post updates, like/dislike posts, and view an activity feed. Users can also edit or delete their own posts.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Connect to Wallet**: Login with MetaMask to interact with the MiniSocial platform.
+- **Change User**: Switch accounts to view posts and interact as different users.
+- **Activity Feed**: View a feed of posts from all users.
+- **Add Post**: Create a post with the logged-in user's address.
+- **Like/Dislike**: Interact with posts by liking or disliking them.
+- **Like/Dislike Count**: Display the count of likes and dislikes on each post.
+- **Post Date**: Show the date each post was created.
+- **Edit Post**: Edit posts and display the last modified date (only the post creator can edit their own posts).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+### 1. Interface Overview
+![Interface Overview]([image-path]/Screenshot%20from%202024-11-12%2022-52-12.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Activity Feed with Posts
+![Activity Feed]([image-path]/Screenshot%20from%202024-11-12%2023-22-36.png)
 
-### `npm run build`
+### 3. MetaMask Wallet Interaction
+![MetaMask Wallet Interaction]([image-path]/Screenshot%20from%202024-11-12%2023-22-45.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. Transaction Confirmation
+![Transaction Confirmation]([image-path]/Screenshot%20from%202024-11-12%2023-23-11.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 5. Updated Post Feed
+![Updated Post Feed]([image-path]/Screenshot%20from%202024-11-12%2023-23-18.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **MetaMask**: Install MetaMask extension on your browser.
+- **Node.js**: Ensure Node.js and npm are installed.
+- **Ethereum Test Network**: Use Sepolia or any Ethereum test network.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/minisocial.git
+   ```
+2. Install dependencies:
+   ```bash
+   cd minisocial
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Update the contract address and ABI in `MiniSocial.js` with your deployed contract details.
 
-## Learn More
+### Running the Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Start the application:
+   ```bash
+   npm start
+   ```
+2. Open MetaMask and connect to Sepolia or another test network.
+3. Access the app at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contract ABI and Interaction
 
-### Code Splitting
+The `MiniSocial` smart contract includes functions for posting, editing, liking, and deleting posts. Here’s a summary of the primary methods:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **publishPost**: Publish a new post.
+- **editPost**: Edit an existing post.
+- **likePost**: Like or dislike a post.
+- **getPost**: Retrieve post details, including likes and dislikes.
+- **getTotalPosts**: Get the total number of posts.
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Post Creation**: Enter a message and click "Post" to publish.
+- **Edit Post**: Click the edit icon on your post to modify it.
+- **Like/Dislike**: Use the heart and thumbs down icons to interact with posts.
+- **Notifications**: Notifications appear when new posts are created or interactions occur.
