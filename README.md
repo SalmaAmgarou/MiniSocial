@@ -18,7 +18,7 @@ MiniSocial is a decentralized social media application similar to Twitter, built
 ## Screenshots
 
 ### 1. Interface Overview
-![Interface Overview]([image-path]/Screenshot%20from%202024-11-12%2022-52-12.png)
+![Interface Overview]([[image-path]/Screenshot%20from%202024-11-12%2022-52-12.png](https://github.com/SalmaAmgarou/MiniSocial/blob/main/Screenshot%20from%202024-11-12%2022-52-12.png))
 
 ### 2. Activity Feed with Posts
 ![Activity Feed]([image-path]/Screenshot%20from%202024-11-12%2023-22-36.png)
