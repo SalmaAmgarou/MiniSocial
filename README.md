@@ -18,19 +18,19 @@ MiniSocial is a decentralized social media application similar to Twitter, built
 ## Screenshots
 
 ### 1. Interface Overview
-![Interface Overview]([[image-path]/Screenshot%20from%202024-11-12%2022-52-12.png))
+![Interface Overview](./Screenshot%20from%202024-11-12%2022-52-12.png)
 
 ### 2. Activity Feed with Posts
-![Activity Feed]([image-path]/Screenshot%20from%202024-11-12%2023-22-36.png)
+![Activity Feed](./Screenshot%20from%202024-11-12%2023-22-36.png)
 
 ### 3. MetaMask Wallet Interaction
-![MetaMask Wallet Interaction]([image-path]/Screenshot%20from%202024-11-12%2023-22-45.png)
+![MetaMask Wallet Interaction](./Screenshot%20from%202024-11-12%2023-22-45.png)
 
 ### 4. Transaction Confirmation
-![Transaction Confirmation]([image-path]/Screenshot%20from%202024-11-12%2023-23-11.png)
+![Transaction Confirmation](./Screenshot%20from%202024-11-12%2023-23-11.png)
 
 ### 5. Updated Post Feed
-![Updated Post Feed]([image-path]/Screenshot%20from%202024-11-12%2023-23-18.png)
+![Updated Post Feed](./Screenshot%20from%202024-11-12%2023-23-18.png)
 
 ## Getting Started
 
